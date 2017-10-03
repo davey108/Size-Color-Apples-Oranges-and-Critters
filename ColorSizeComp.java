@@ -15,10 +15,6 @@ class ColorSizeComp extends ColorComp implements Comparator<Apple>{
    * If the two colors are same then return a -1, 0, or 1 if first apple object size is higher, equal, or lower than second apple object's size.
    * 
   */
-  public void outtaReturn(){
-    d = 5;
-    System.out.println(d);
-  }
   public int compare(Apple f1, Apple f2) {
     // call to ColorComp compare method to do comparison by color
     int output = super.compare(f1,f2);
