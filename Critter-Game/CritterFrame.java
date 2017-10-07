@@ -17,7 +17,7 @@ public class CritterFrame extends JFrame {
 
     public CritterFrame() {
         // create frame and order list
-        setTitle("CSE142 critter simulation");
+        setTitle("Critter Simulation");
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         myModel = new CritterModel(100, 50);
 
